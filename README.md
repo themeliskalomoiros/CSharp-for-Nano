@@ -21,9 +21,16 @@ color brightgreen,green " +$"
 
 ## Usage
 ### Apply changes for your user
-Quick and easy, copy the above configuration into `~/.nanorc` file. If the file doesn't exist *create it yourself*. Open a file with Nano and embrace the moment!
+Just copy the above configuration into `~/.nanorc` file. If the file doesn't exist *create it yourself*. I've also provided the `raw` file so you could append the configuration directly
+```
+# Assuming you're currently in this repo.
+$ cat raw >> ~/.nanorc
+```
 ### Apply changes system-wide
 To enable the configuration system-wide, so others may use it as well, create a file `/usr/share/nano/csharp.nanorc` and insert the configuration.
+
+## How it looks
+![Nano with C#](screenshot.PNG)
 
 ## Bonus
 Here are some configuration bonuses in order to make your life a bit easier with Nano.
