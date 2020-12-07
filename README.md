@@ -1,6 +1,6 @@
-Nano C# Syntax Highlighting
+Simple Nano C# Syntax Highlighting
 ======
-Configuration to use syntax highlighting for the C# language in the Nano editor.
+A simple configuration to use syntax highlighting for the C# language in the Nano editor.
 
 ## The configuration (source)
 ```
@@ -31,6 +31,9 @@ To enable the configuration system-wide, so others may use it as well, create a 
 
 ## How it looks
 ![Nano with C#](screenshot.PNG)
+
+## A richer alternative
+If you want a richer syntax highlighting (sometimes many colors bother me) then check out [this repo!](https://github.com/scopatz/nanorc)
 
 ## Bonus
 Here are some configuration bonuses in order to make your life a bit easier with Nano.
