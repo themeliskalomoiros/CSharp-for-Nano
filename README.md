@@ -1,7 +1,8 @@
-C# for Nano
+Nano C# Syntax Highlighting
 ======
-**Syntax highlighting** for the C# language in the Nano editor.
+Configuration to use syntax highlighting for the C# language in the Nano editor.
 
+## The configuration (source)
 ```
 # Syntax highlighting for C#
 syntax csharp "\.cs$"
@@ -19,4 +20,23 @@ color brightgreen,green " +$"
 ```
 
 ## Usage
-Append the configuration to `~/.nanorc` (create the file if it doesn't exist).
+### Apply changes for your user
+Quick and easy, copy the above configuration into `~/.nanorc` file. If the file doesn't exist *create it yourself*. Open a file with Nano and embrace the moment!
+### Apply changes system-wide
+To enable the configuration system-wide, so others may use it as well, create a file `/usr/share/nano/csharp.nanorc` and insert the configuration.
+
+## Bonus
+Here are some configuration bonuses in order to make your life a bit easier with Nano.
+```
+# Setting the tabsize to 4, Nano has a default value of 8 and its too long.
+set tabsize 4
+# Display line numbers in the editor.
+set linenumbers
+# Enable mouse interaction.
+set mouse
+# Enable smooth scrolling.
+set smooth
+# Automatically converts tabs to spaces.
+set tabstospaces
+```
+A note on `tabstospaces`:*Tab width varies from one system to another. Using tabs in the source code may have unpleasant results if you edit it with a different editor (with different tab width, obviously). Replacing tabs with specific numbers of spaces solves this problem.*
